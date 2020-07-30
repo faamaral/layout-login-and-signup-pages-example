@@ -5,9 +5,11 @@ body{
     font-style: normal;
     font-weight: normal;
     color: #793737;
-    background: url(/assets/img_background.jpg);
+    /*background: url(/assets/img_background.jpg);*/
+    
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url(/assets/img_background.jpg);
 
 }
 
@@ -16,8 +18,8 @@ body{
     position: absolute;
     background-color:rgba(121, 55, 55, 0.6);
     top: 0;
-    right: -25%;
-    width: 100%;
+    left: 25%;
+    width: 75%;
     height: 100%;
 }
 
@@ -42,6 +44,16 @@ body::before {
     box-shadow: 0 15px 50px rgba(0, 0, 0, .5);
     padding: 50px;
     box-sizing: border-box;
+}
+
+.form img{
+    position: relative;
+    margin-left: 100px;
+}
+
+.form p{
+    position: relative;
+    text-align: center;
 }
 
 .form .input-box{
