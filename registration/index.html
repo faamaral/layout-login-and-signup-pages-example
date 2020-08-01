@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registre-se</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <div class="cls">
+        <div class="form">
+            <form action="" method="post">
+                <img src="../assets/iconUserLogin.png" alt="">
+                <p>Create a new account for beginner</p>
+                <div class="input-box">
+                    <i class="fa fa-id-badge" aria-hidden="true"></i>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full name" required>
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Repeat password" required>
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Register">
+                </div>
+                <p>Back to login? <a href="../index.html">Click here!</a></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
